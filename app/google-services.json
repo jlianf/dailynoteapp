@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "27510620010",
+    "project_id": "daily-notes-app-5f982",
+    "storage_bucket": "daily-notes-app-5f982.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27510620010:android:b377d3e3e2174c12a3af13",
+        "android_client_info": {
+          "package_name": "yaydev.notes.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27510620010-r5gmh1koros04plll0gku106h1qmiup0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8upfqGGuwALC37GfZODaiemhyKG_0dBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27510620010-r5gmh1koros04plll0gku106h1qmiup0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
