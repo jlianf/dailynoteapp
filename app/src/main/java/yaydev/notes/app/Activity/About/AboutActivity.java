@@ -58,7 +58,7 @@ public class AboutActivity extends AppCompatActivity {
         company.setText(Constant.company);
         email.setText(Constant.email);
         website.setText(Constant.website);
-        contact.setText(Constant.contact);
+        //contact.setText(Constant.contact);
 
 
         ll_share  = findViewById(R.id.ll_share);
