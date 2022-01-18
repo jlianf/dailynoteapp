@@ -2,9 +2,9 @@
     <string name="app_name">Daily Notes App</string>
 
     <!--<Admob ads>-->
-    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="interstitia_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_app_id">ca-app-pub-4905035688129642~7851562560</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4905035688129642/3198179291</string>
+    <string name="interstitia_ad_unit_id">ca-app-pub-4905035688129642/2407664196</string>
 
     <!--< Fb Ads>-->
     <string name="fb_ad_banner_id">ca-app-pub-3940256099942544~3347511713</string>

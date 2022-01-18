@@ -53,7 +53,7 @@ public class AboutActivity extends AppCompatActivity {
         company = findViewById(R.id.company);
         email = findViewById(R.id.email);
         website = findViewById(R.id.website);
-        contact = findViewById(R.id.contact);
+        //contact = findViewById(R.id.contact);
 
         company.setText(Constant.company);
         email.setText(Constant.email);

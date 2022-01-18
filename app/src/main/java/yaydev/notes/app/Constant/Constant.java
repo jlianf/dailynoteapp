@@ -9,7 +9,7 @@ public class Constant implements Serializable {
     public static String email = "jalianfebriandy15@gmail.com";
     public static String website = "https://yaydevelopers.blogspot.com/";
     //public static String contact = "+00 0234560890";
-    public static String privacyPolicy = "https://yaydevelopers.blogspot.com/2021/09/privacy.html";
+    public static String privacyPolicy = "https://yaydevelopers.blogspot.com/2022/01/privacy-policy.html";
 
     //--------------------Admob ads----------------- //
     public static Boolean isAdmobBannerAd = true;
