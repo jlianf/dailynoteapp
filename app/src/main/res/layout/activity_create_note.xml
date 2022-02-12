@@ -228,7 +228,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-            <ImageButton android:id="@+id/bold"
+            <ImageButton android:id="@+id/bolds"
                 android:contentDescription="@null"
                 android:layout_width="48dp"
                 android:layout_height="48dp"

@@ -7,8 +7,8 @@
     <string name="interstitia_ad_unit_id">ca-app-pub-4905035688129642/2407664196</string>
 
     <!--< Fb Ads>-->
-    <string name="fb_ad_banner_id">ca-app-pub-3940256099942544~3347511713</string>
-    <string name="fb_ad_interstitia_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="fb_ad_banner_id">ca-app-pub-3940256099942544~3347510000</string>
+    <string name="fb_ad_interstitia_id">ca-app-pub-3940256099942544/6300970000</string>
 
     <!--<ONESIGNAL_APP_ID>-->
     <string name="ONESIGNAL_APP_ID">3d4ab01b-3180-4f1a-9b7e-217da9130143</string>

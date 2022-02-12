@@ -133,7 +133,7 @@ public class CreateNoteActivity extends AppCompatActivity {
 
 
         nemosoftsEditText = (NemosoftsEditText) findViewById(R.id.create_inputNote);
-        bold = (ImageButton) findViewById(R.id.bold);
+        bold = (ImageButton) findViewById(R.id.bolds);
         italic = (ImageButton) findViewById(R.id.italic);
         underline = (ImageButton) findViewById(R.id.underline);
         strikethrough = (ImageButton) findViewById(R.id.strikethrough);
