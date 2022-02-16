@@ -138,8 +138,8 @@ public class CreateNoteActivity extends AppCompatActivity {
         underline = (ImageButton) findViewById(R.id.underline);
         strikethrough = (ImageButton) findViewById(R.id.strikethrough);
         bullet = (ImageButton) findViewById(R.id.bullet);
-        quote = (ImageButton) findViewById(R.id.quote);
-        clear = (ImageButton) findViewById(R.id.clear);
+        //quote = (ImageButton) findViewById(R.id.quote);
+        //clear = (ImageButton) findViewById(R.id.clear);
 
         nemosoftsEditText.setSelection(nemosoftsEditText.getEditableText().length());
 
@@ -177,8 +177,8 @@ public class CreateNoteActivity extends AppCompatActivity {
         initMiscellaneous();
         setSubtitleIndicatorColor();
 
-        LinearLayout adView = findViewById(R.id.adView_create);
-        methods.showBannerAd(adView);
+        //LinearLayout adView = findViewById(R.id.adView_create);
+        //methods.showBannerAd(adView);
 
         bold.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -250,35 +250,35 @@ public class CreateNoteActivity extends AppCompatActivity {
         });
 
 
-        quote.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                nemosoftsEditText.quote(!nemosoftsEditText.contains(NemosoftsEditText.FORMAT_QUOTE));
-            }
-        });
+//        quote.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                nemosoftsEditText.quote(!nemosoftsEditText.contains(NemosoftsEditText.FORMAT_QUOTE));
+//            }
+//        });
 
-        quote.setOnLongClickListener(new View.OnLongClickListener() {
-            @Override
-            public boolean onLongClick(View v) {
-                Toast.makeText(CreateNoteActivity.this, R.string.toast_quote, Toast.LENGTH_SHORT).show();
-                return true;
-            }
-        });
+//        quote.setOnLongClickListener(new View.OnLongClickListener() {
+//            @Override
+//            public boolean onLongClick(View v) {
+//                Toast.makeText(CreateNoteActivity.this, R.string.toast_quote, Toast.LENGTH_SHORT).show();
+//                return true;
+//            }
+//        });
 
-        clear.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                nemosoftsEditText.clearFormats();
-            }
-        });
+//        clear.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                nemosoftsEditText.clearFormats();
+//            }
+//        });
 
-        clear.setOnLongClickListener(new View.OnLongClickListener() {
-            @Override
-            public boolean onLongClick(View v) {
-                Toast.makeText(CreateNoteActivity.this, R.string.toast_format_clear, Toast.LENGTH_SHORT).show();
-                return true;
-            }
-        });
+//        clear.setOnLongClickListener(new View.OnLongClickListener() {
+//            @Override
+//            public boolean onLongClick(View v) {
+//                Toast.makeText(CreateNoteActivity.this, R.string.toast_format_clear, Toast.LENGTH_SHORT).show();
+//                return true;
+//            }
+//        });
 
 
     }

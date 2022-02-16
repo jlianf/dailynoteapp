@@ -15,27 +15,25 @@
         android:paddingBottom="@dimen/_10sdp">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <androidx.appcompat.widget.Toolbar
-                app:title="@string/app_name"
-                app:titleTextColor="?attr/BackgroundTint"
-                app:navigationIcon="?attr/icon_a"
-                android:id="@+id/create_toolbar_note"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:ignore="MissingConstraints" />
-
-
-        <LinearLayout
             android:background="?attr/BackgroundColor"
             android:id="@+id/llScroll"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
+                <androidx.appcompat.widget.Toolbar
+                    app:title="@string/app_name"
+                    app:titleTextColor="?attr/BackgroundTint"
+                    app:navigationIcon="?attr/icon_a"
+                    android:id="@+id/create_toolbar_note"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -196,19 +194,6 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-
-        </LinearLayout>
-
-            <LinearLayout
-                android:paddingTop="@dimen/_10sdp"
-                android:layout_alignParentBottom="true"
-                android:orientation="vertical"
-                android:id="@+id/adView_create"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                app:layout_constraintEnd_toEndOf="parent" />
-
         </LinearLayout>
 
 
@@ -278,26 +263,6 @@
                 android:background="?android:selectableItemBackground">
             </ImageButton>
 
-            <ImageButton android:id="@+id/quote"
-                android:contentDescription="@null"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:src="@drawable/ic_format_quote"
-                android:scaleType="center"
-                android:tint="?attr/BackgroundTint"
-                android:background="?android:selectableItemBackground">
-            </ImageButton>
-
-
-            <ImageButton android:id="@+id/clear"
-                android:contentDescription="@null"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:src="@drawable/ic_format_clear"
-                android:scaleType="center"
-                android:tint="?attr/BackgroundTint"
-                android:background="?android:selectableItemBackground">
-            </ImageButton>
 
         </LinearLayout>
 
